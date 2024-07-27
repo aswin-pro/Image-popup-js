@@ -28,17 +28,6 @@ h1 {
     cursor: pointer;
 }
 
-/* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
-.image-container::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for Firefox */
-.image-container {
-    scrollbar-width: none;
-    /* Firefox */
-}
-
 .popup {
     display: none;
     position: absolute;
@@ -64,4 +53,11 @@ h1 {
     width: 40px;
     text-align: center;
     border-radius: 360px;
+}
+@media  screen and (max-width:500px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    
 }
