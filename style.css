@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    overflow-x: auto;
+    margin: 20px;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* Hide scrollbar for Chrome, Safari, and newer versions of Edge */
+.image-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.image-container {
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* for images */
+    justify-content: center;
+    align-items: center;
+}
+
+.popup__close {
+    position: absolute;
+    top: 60px;
+    right: auto;
+    left: auto;
+    font-size: 30px;
+    color: rgb(9, 7, 7);
+    cursor: pointer;
+    background-color: beige;
+    width: 40px;
+    text-align: center;
+    border-radius: 360px;
+}
