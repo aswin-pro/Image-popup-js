@@ -1,6 +1,6 @@
 Popup Image Gallery
 
-This project is a simple image gallery that displays images in a popup when clicked. The gallery features a clean design with no visible scrollbars and a smooth image viewing experience.
+This project is a simple image gallery that displays images in a popup when clicked. The gallery features a clean design with  a smooth image viewing experience.
 
 Features
 
@@ -16,7 +16,7 @@ Technologies Used
 
 How to View
 
-You can explore the image gallery by visiting 
+You can explore the image gallery by visiting https://aswin-pro.github.io/Image-popup-js/
 
 Contributing
 
